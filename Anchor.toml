@@ -1,13 +1,13 @@
 [features]
 seeds = false
 [programs.localnet]
-the_share_prog = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+the_share_prog = "CGvPBsRDLFxd4YaKcgfJFpWMHo5vc8DGdpJNfH9b9y87"
 
 [registry]
 url = "https://anchor.projectserum.com"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "/Users/tranguyenduy/.config/solana/id.json"
 
 [scripts]
