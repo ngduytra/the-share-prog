@@ -1,5 +1,5 @@
 use anchor_lang::prelude::*;
-use anchor_spl::{associated_token, token};
+use anchor_spl::token;
 
 use crate::errors::ErrorCode;
 use crate::schema::plan::*;
@@ -25,8 +25,6 @@ pub struct ChangePlanConfigs<'info> {
 
     pub system_program: Program<'info, System>,
     pub token_program: Program<'info, token::Token>,
-    pub associated_token_program: Program<'info, associated_token::AssociatedToken>,
-    pub rent: Sysvar<'info, Rent>,
 }
 
 pub fn exec(

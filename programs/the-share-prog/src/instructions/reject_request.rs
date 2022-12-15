@@ -22,7 +22,6 @@ pub struct RejectRequest<'info> {
     pub plan: Account<'info, Plan>,
 
     pub system_program: Program<'info, System>,
-    pub rent: Sysvar<'info, Rent>,
 }
 
 pub fn exec(ctx: Context<RejectRequest>) -> Result<()> {
