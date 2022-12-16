@@ -14,7 +14,7 @@ pub use utils::*;
 
 pub mod constants;
 
-declare_id!("CGvPBsRDLFxd4YaKcgfJFpWMHo5vc8DGdpJNfH9b9y87");
+declare_id!("44u8zm9smwkMz67AVadCDAYWoMamNHkFbTnFad49EtVc");
 
 #[program]
 pub mod the_share_prog {
